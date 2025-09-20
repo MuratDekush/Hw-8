@@ -1,13 +1,38 @@
-ul li:nth-child(1) {
+li:nth-child(1) {
     color: blue;
     
 }
 
-ul li:nth-child(2) {
+li:nth-child(2) {
     color: rebeccapurple;
 }
 
-ul li:nth-child(3) {
+li:nth-child(3) {
     color: red;
 }
 
+li:nth-child(even) {
+    color:brown;
+}
+
+li:nth-child(odd) {
+    color:green;
+}
+li:nth-child(n+5){
+    text-shadow: 1px 2px 3px blueviolet;
+}
+li:nth-child(-n+2){
+    background-color: burlywood;
+}
+li:only-child{
+    
+}
+.button:disabled {
+background-color: darkseagreen;
+}
+li:not(li:first-child) {
+    font-size: 24px ;
+}
+input:checked {
+    box-shadow: 2px 3px 1px red;
+}
